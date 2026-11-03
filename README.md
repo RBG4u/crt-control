@@ -47,10 +47,21 @@ Open Arduino IDE, go to **Sketch → Include Library → Manage Libraries...** a
 - **Isolation Control**: When the MCU is connected to the preamplifier, the controls are locked to prevent accidental recordings.
 - **Saved Presets**: Select a slot from the dropdown to instantly apply it, or save your current settings.
 - **Parameter Cards**: Use sliders, step buttons, or numeric inputs (0–255) to adjust values.
+<p align="center">
+  <img src="https://github.com/RBG4u/crt-control/blob/main/images/main.jpg?raw=true" width="60%" />
+</p>
 
 ### Settings Menu (☰)
 - **I²C Tab**: Enter the HEX addresses of the registers for the required parameters, check the *Send parameter* checkbox, and be sure to save. Use the **Bus Scanner** to check the preamplifier address.
+<p align="center">
+  <img src="https://github.com/RBG4u/crt-control/blob/main/images/i2c.jpg?raw=true" width="48%" />
+  <img src="https://github.com/RBG4u/crt-control/blob/main/images/i2c_2.jpg?raw=true" width="48%" />
+</p>
+
 - **Wi-Fi Tab**: Manage network credentials and view connection status.
+<p align="center">
+  <img src="https://github.com/RBG4u/crt-control/blob/main/images/wifi.jpg?raw=true" width="60%" />
+</p>
 
 ## Safety and Troubleshooting
 - **Do not guess registers**: Never write to a register unless you have verified its purpose in the chip's datasheet.
