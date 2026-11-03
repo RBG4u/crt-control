@@ -35,6 +35,15 @@ Open Arduino IDE, go to **Sketch → Include Library → Manage Libraries...** a
 4. **Crucial Step:** Go to `Tools → Erase Flash → All Flash Contents`. This is required for the first installation to clear old configuration data.
 5. Select your ESP32 board and click **Upload**.
 
+### Option 2: Pre-compiled Firmware (No Arduino IDE required)
+If you don't want to compile the code yourself, you can flash the pre-compiled firmware:
+1. Go to the [Releases](https://github.com/RBG4u/crt-control/releases) page and download the latest `CRT_Iso_Controller.ino.merged.bin` file.
+2. Connect your ESP32 to your computer via USB.
+3. Open the [ESP Web Flasher](https://espressif.github.io/esptool-js/) in Google Chrome or Microsoft Edge.
+4. Click "Connect" and select your COM port.
+5. Set the Flash Address to **`0x0`** (zero).
+6. Select the downloaded `.merged.bin` file and click "Program".
+
 ## First Run & Network Setup
 1. Power on the ESP32. After a 3-second delay, it will start in **Access Point (AP) mode**.
 2. Connect your phone or PC to the Wi-Fi network **`CRT-Control`** (Password: **`12345678`**).
