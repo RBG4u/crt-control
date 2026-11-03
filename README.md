@@ -18,7 +18,7 @@ Firmware for the ESP32 that enables control of a CRT monitor's preamplifier via 
 | ----------------- | ---------- |
 | I²C SDA           | 21         |
 | I²C SCL           | 22         |
-| Isolation relay   | 4          |
+| Isolation switch  | 4          |
 
 **Notes:**
 - Power the preamp IC from the monitor's own power supply, **not** from the ESP32.
