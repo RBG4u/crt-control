@@ -48,19 +48,19 @@
 - **Сохраненные пресеты**: Выберите слот из выпадающего списка для мгновенного применения или сохраните текущие настройки.
 - **Карточки параметров**: Используйте ползунки, кнопки шага или числовой ввод (0–255) для изменения значений.
 <p align="center">
-  <img src="https://github.com/RBG4u/crt-control/blob/main/images/main.jpg?raw=true" width="60%" />
+  <img src="https://github.com/RBG4u/crt-control/blob/main/images/main.jpg?raw=true" width="35%" />
 </p>
 
 ### Меню настроек (☰)
 - **Вкладка I²C**: Введите HEX-адреса регистров для необходимых параметров и поставьте галочку *Send parameter*, не забудьте сохранить. Используйте **Сканер шины** для проверки адреса предусилителя.
 <p align="center">
-  <img src="https://github.com/RBG4u/crt-control/blob/main/images/i2c.jpg?raw=true" width="48%" />
-  <img src="https://github.com/RBG4u/crt-control/blob/main/images/i2c_2.jpg?raw=true" width="48%" />
+  <img src="https://github.com/RBG4u/crt-control/blob/main/images/i2c.jpg?raw=true" width="28%" />
+  <img src="https://github.com/RBG4u/crt-control/blob/main/images/i2c_2.jpg?raw=true" width="28%" />
 </p>
 
 - **Вкладка Wi-Fi**: Управление учетными данными сети и просмотр статуса подключения.
 <p align="center">
-  <img src="https://github.com/RBG4u/crt-control/blob/main/images/wifi.jpg?raw=true" width="60%" />
+  <img src="https://github.com/RBG4u/crt-control/blob/main/images/wifi.jpg?raw=true" width="35%" />
 </p>
 
 ## Безопасность и рекомендации
