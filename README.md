@@ -1,4 +1,4 @@
-# CRT Iso-Controller
+# crt-control
 
 [Русская версия](README.ru.md)
 
