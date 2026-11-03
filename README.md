@@ -59,6 +59,8 @@ Open Arduino IDE, go to **Sketch → Include Library → Manage Libraries...** a
 - **Web interface freezes on multiple tabs:** The ESP32 has a limited number of TCP sockets. The firmware enforces `Connection: close`, but avoid opening more than 3-4 tabs simultaneously.
 
 ## Wiring diagram
+
+```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                  MONITOR                                    │
 │                                                                             │
