@@ -39,7 +39,7 @@ Open Arduino IDE, go to **Sketch → Include Library → Manage Libraries...** a
 If you don't want to compile the code yourself, you can flash the pre-compiled firmware:
 1. Go to the [Releases](https://github.com/RBG4u/crt-control/releases) page and download the latest `CRT_Iso_Controller.ino.merged.bin` file.
 2. Connect your ESP32 to your computer via USB.
-3. Open the [ESP Web Flasher](https://espressif.github.io/esptool-js/) in Google Chrome or Microsoft Edge.
+3. Open the [ESP Web Flasher](https://espressif.github.io/esptool-js/).
 4. Click "Connect" and select your COM port.
 5. Set the Flash Address to **`0x0`** (zero).
 6. Select the downloaded `.merged.bin` file and click "Program".
