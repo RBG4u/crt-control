@@ -104,8 +104,8 @@ Open Arduino IDE, go to **Sketch → Include Library → Manage Libraries...** a
 │   5V side (HV):                        3.3V side (LV):                      │  │
 │   • HV_VCC ◄── [5V] (from the monitor) • LV_VCC ◄────── [3.3V] (от ESP32)   │  │
 │   • HV_GND ◄── [GND] (from the monitor)• LV_GND ◄────── [GND] (от ESP32)    │  │
-│   • HV_SDA ───► [SDA_5V] (к CD4066)    • LV_SDA ◄────── [SDA_ESP]           │  │
-│   • HV_SCL ───► [SCL_5V] (к CD4066)    • LV_SCL ◄────── [SCL_ESP]           │  │
+│   • HV_SDA ───► [SDA_5V] (to CD4066)   • LV_SDA ◄────── [SDA_ESP]           │  │
+│   • HV_SCL ───► [SCL_5V] (to CD4066)   • LV_SCL ◄────── [SCL_ESP]           │  │
 └─────────────────────────────────────────────────────────────────────────────┘  │ 
            │                                                       ▲             │
            │                                                       │             │
