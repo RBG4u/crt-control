@@ -21,7 +21,6 @@ Firmware for the ESP32 that enables control of a CRT monitor's preamplifier via 
 | Isolation switch  | 4          |
 
 **Notes:**
-- Power the preamp IC from the monitor's own power supply, **not** from the ESP32.
 - The I²C lines require pull-up resistors; ensure they are present on the monitor side.
 
 ## Required Libraries 
