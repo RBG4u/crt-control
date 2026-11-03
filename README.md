@@ -124,6 +124,7 @@ Open Arduino IDE, go to **Sketch → Include Library → Manage Libraries...** a
 │   • 3.3V ─────────────► [3.3V] (to the LLC)                                 │
 │   • GND ──────────────► [GND] (to the LLC)                                  │
 └─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ## License
 MIT License. See [LICENSE](LICENSE) for details.
